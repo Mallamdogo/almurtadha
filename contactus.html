@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <title>contact us</title>
+            <link rel="stylesheet" href="./CSS/styles.css">
+        </head>
+
+    <body>
+
+
+        <header>
+            <div class="container">
+                    <div id="branding">
+                        <h1> <span class="highlight">AL-MURTADOR</span> Islamic Learning Center</h1>
+                    </div>
+            
+                <nav>
+                    <ul>
+                        <li> <a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li class="Current"><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+           </div>
+        </header>
+       
+        <!-- Contact Information -->
+        <section id="contact-info">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <h3>Contact Information</h3>
+                <p><strong>Address:</strong> No. 3, Church Close, Off Taoheed Road, Basin, Ilorin, Kwara State, Nigeria</p>
+                <p><strong>Phone:</strong>+234 803 590 7024, +234 706 698 4268, +2348101688285,</p>
+                <p><strong>Email:</strong> almurtadorlearningcente@gmail.com</p>
+                <p><strong>Operating Hours:</strong> Monday - Wednesday, 4:00 AM - 6:00 PM,<br> Saturday - Sunday, 10:00 AM -
+                    2:00 PM</p>
+            </div>        
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="submit_contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Google Map Integration -->
+        <section id="location-map">
+            <h3>Our Location</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9152314197027!2d-122.08424968469002!3d37.42206537982556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba7db5a0e15d%3A0xceda7e2f6a0e1e22!2sGoogleplex!5e0!3m2!1sen!2sus!4v1621534428667!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <!-- Social Media Links -->
+        <section id="social-media">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/almurtador" target="_blank">Facebook</a><br>
+            <a href="https://www.twitter.com/almurtador" target="_blank">Twitter</a><br>
+            <a href="https://www.instagram.com/almurtador" target="_blank">Instagram</a>
+        </section>
+
+        <!-- FAQ Section (Optional) -->
+        <section id="faq">
+            <h3>Frequently Asked Questions</h3>
+            <h4>What courses do you offer?</h4>
+            <p>We offer courses in Quran Studies, Hadith Studies, Fiqh Studies, and Arabic Language.</p>
+
+            <h4>How can I register my child?</h4>
+            <p>You can register your child through our online sign-up form available on our website.</p>
+
+            <h4>What are the fees for the courses?</h4>
+            <p>Course fees vary based on the program. Please contact us for detailed information.</p>
+        </section>
+    </body>
+
+</html>

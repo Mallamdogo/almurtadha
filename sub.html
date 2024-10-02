@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-MURTADOR Madrosa - Subscribe</title>
+    <style>
+        /* Simple CSS for subscription form layout */
+        .subscription-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #f9f9f9;
+        }
+        .subscription-container h2 {
+            text-align: center;
+        }
+        .subscription-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .subscription-container label {
+            font-weight: bold;
+        }
+        .subscription-container input[type="text"], .subscription-container input[type="email"], .subscription-container select {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .subscription-container input[type="submit"] {
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        .subscription-container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="subscription-container">
+        <h2>Subscribe to Our Updates</h2>
+        <form action="submit_subscription.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subscription-type">Subscribe for:</label>
+            <select id="subscription-type" name="subscription_type" required>
+                <option value="newsletter">Newsletter</option>
+                <option value="event_notifications">Event Notifications</option>
+                <option value="course_updates">Course Updates</option>
+                <option value="blog_updates">Blog Updates</option>
+                <option value="parent_updates">Parent/Guardian Updates</option>
+                <option value="student_resources">Student Resources</option>
+            </select>
+
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</body>
+</html>

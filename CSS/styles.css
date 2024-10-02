@@ -1,0 +1,283 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* header */
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .Current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #13044e;
+    font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+    min-height: 400px;
+    background: url(../img/quran4.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/* Newsletter */
+#newsleter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsleter h1{
+    float: left;
+}
+
+#newsleter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsleter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* boxes */
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+/* sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+/* main-col */
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+/* Services */
+ol#Services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    background: #e6e6e6;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+/* contact-info */
+/* Contact Information Section */
+body{
+    background-color: #f4f4f4;
+
+}
+#contact-info {
+    padding: 20px;
+    width: 50%;
+    margin:auto;
+    background: url(../img/dull.jpg);
+    color: #ffffff;
+  }
+  
+  #contact-info h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  #contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  #contact-info strong {
+    font-weight: bold;
+  }
+  
+  /* Contact Form Section */
+  #contact-form {
+    margin-bottom: 30px;
+  }
+  
+  #contact-form h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  #contact-form form {
+    max-width: 600px;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contact-form textarea {
+    resize: vertical;
+  }
+  
+  #contact-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Location Map Section */
+  #location-map {
+    margin-bottom: 30px;
+  }
+  
+  #location-map h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  #location-map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+  
+  /* Social Media Section */
+  #social-media {
+    margin-bottom: 30px;
+  }
+  
+  #social-media h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  #social-media a {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #social-media a:hover {
+    text-decoration: underline;
+  }
+  
